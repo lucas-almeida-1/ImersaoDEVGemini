@@ -1,4 +1,4 @@
-## Cinemas do Brasil
+## Cinemas Brasil
 
 **Descrição:**
 
