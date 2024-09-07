@@ -10,10 +10,12 @@
 
 <body>
     <header>
-        <h1>Cinemas do Brasil</h1>
+        <h1>Cinemas Brasil</h1>
+        <h3 id="subheader">Seu mapa para as telonas de todo o país</h3>
     </header>
     <main>
-        <h1 id="titulo-capital">Aqui você encontra cinemas para cada capital do país, seja ele gratuito/pago.</h1>
+        <h1 id="titulo-capital">Aqui você encontra cinemas para cada capital do país, seja gratuito/pago.</h1>
+        <button id="modo-noturno">Modo noturno</button>
         <h2>Escolha sua capital:</h2>
         <div id="div-conteudo">
             <section class="capitais">
@@ -44,15 +46,16 @@
                 <button onclick="mostrarCinemas('São Paulo/SP')">São Paulo/SP</button>
                 <button onclick="mostrarCinemas('Teresina/PI')">Teresina/PI</button>
                 <button onclick="mostrarCinemas('Vitória/ES')">Vitória/ES</button>
+                <br>
             </section>
+            <br>
             <div id="div-resultado">
                 <section align="center" class="resultados-pesquisa" id="resultados-pesquisa"></section>
             </div>
-            <button id="modo-noturno">Modo noturno</button>
         </div>
     </main>
     <footer>
-        <p>© 2024 Cinemas Comunitários. Todos os direitos reservados.</p>
+        <p>© 2024 - Cinemas Brasil. Todos os direitos reservados.</p>
     </footer>
     <script src="dados.js"></script>
     <script src="app.js"></script>

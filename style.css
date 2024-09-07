@@ -14,6 +14,10 @@ header {
     color: #fa1b1b;
 }
 
+#subheader {
+    color: #fff;
+}
+
 #titulo-capital {
     display: flex;
     justify-content: center;
@@ -23,7 +27,8 @@ header {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    width: 80%; 
+    align-content: center;
+    
 }
 
 .capitais button {
@@ -34,12 +39,17 @@ header {
     color: #fff;
     cursor: pointer;
     margin: 2px;
-    width: calc(100% / 9);
+    
+    width: calc(100% / 9 - 10px);
+}
+
+h2 {
+    text-align: center;
 }
 
 .resultados-pesquisa {
     padding: 20px;
-    border: 1px solid #ddd;
+    border: 1px solid #ee0505;
     border-radius: 5px;
 }
 
@@ -47,9 +57,14 @@ header {
     /* Estilos para cada item da lista de cinemas */
     margin-bottom: 10px;
     padding: 10px;
-    background-color: #fff;
+    background-color: #cbc7c7;
     border: 1px solid #ddd;
     border-radius: 5px;
+}
+
+#modo-noturno {
+    display: block; /* Faz o botão se comportar como um bloco */
+    margin: 0 auto; /* Margem automática nas laterais para centralizar */
 }
 
 /* Estilos para o modo noturno */
@@ -61,7 +76,7 @@ header {
 .resultados-pesquisa {
     background-color: #312f2f;
     color: #000;
-    width: 60%;
+    width: 80%;
 }
 
 #div-resultado {
@@ -69,6 +84,12 @@ header {
     justify-content: center;
 }
 
-#div-conteudo {
-    
+footer {
+    background-color: #333;
+    color: #fff;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
 }
