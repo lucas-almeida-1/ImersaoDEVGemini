@@ -9,7 +9,7 @@ Este projeto web permite que o usuário encontre cinemas em diversas cidades bra
 * **Busca por cidade:** Permite ao usuário filtrar os cinemas por capital brasileira.
 * **Informações detalhadas:** Apresenta informações relevantes sobre cada cinema, como nome, endereço, descrição e link para o site oficial.
 * **Modo noturno:** Permite alternar entre o modo claro e escuro para melhor visualização.
-* **Filtro de busca:** (Opcional) Permite filtrar os cinemas por tipo (gratuito/pago) ou gênero de filme.
+* **Filtro de busca:** Permite filtrar os cinemas por tipo (gratuito/pago) ou gênero de filme. (A ser implementado)
 
 **Tecnologias utilizadas:**
 
@@ -20,7 +20,7 @@ Este projeto web permite que o usuário encontre cinemas em diversas cidades bra
 **Como usar:**
 
 1. **Clone o repositório:** Clone este repositório para sua máquina local utilizando o Git.
-2. **Abra o projeto:** Abra o arquivo `index.html` em seu navegador web.
+2. **Abra o projeto:** Abra o arquivo `index.html` em seu navegador web ou teste rapidamente <a href="imersao-dev-gemini-five.vercel.app" target="_blank">aqui</a>
 3. **Selecione a cidade:** Clique no botão correspondente à cidade desejada para visualizar os cinemas.
 
 **Contribuições:**
