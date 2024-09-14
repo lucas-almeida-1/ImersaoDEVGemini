@@ -31,10 +31,6 @@ Contribuições são bem-vindas! Se você encontrar algum problema ou tiver suge
 
 Lucas Almeida
 
-**Licença:**
-
-[Escolha uma licença adequada, como MIT]
-
 ## Estrutura do Repositório
 
 * **index.html:** Arquivo principal da aplicação.
